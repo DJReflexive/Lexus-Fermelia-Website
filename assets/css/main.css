@@ -150,6 +150,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		text-transform: none;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -158,7 +159,7 @@ input, select, textarea {
 		letter-spacing: 0.075em;
 		line-height: 1em;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1930,7 +1931,7 @@ input, select, textarea {
 	header p {
 		color: #a8b0b3;
 		letter-spacing: 0.05em;
-		text-transform: uppercase;
+		text-transform: none;
 	}
 
 	header h1 + p {
@@ -2283,7 +2284,7 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: 2em 0 2em 0;
 		padding-left: 1em;
 	}
 
@@ -2829,6 +2830,13 @@ input, select, textarea {
 				#header header h1:after {
 					margin-top: 0.5em;
 				}
+
+
+			#header header h2 {
+				font-size: 2em;
+				line-height: 1.25em;
+				margin: 6em 0 0 0;
+			}
 
 			#header header p {
 				color: #ffffff;
