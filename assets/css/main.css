@@ -3150,3 +3150,8 @@ input, select, textarea {
 				}
 
 	}
+
+/* No scroll class for when popup is open */
+	.no-scroll {
+		overflow: hidden;
+	}

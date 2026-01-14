@@ -171,4 +171,55 @@
 
 		});
 
+	// Popup functionality
+		$(document).ready(function() {
+			$('#software-btn').click(function(e) {
+				e.preventDefault();
+				$('body').addClass('no-scroll');
+				$('#software-popup').show();
+			});
+			$('#close-software').click(function() {
+				$('#software-popup').hide();
+				$('body').removeClass('no-scroll');
+			});
+
+			$('#education-btn').click(function(e) {
+				e.preventDefault();
+				$('body').addClass('no-scroll');
+				$('#education-popup').show();
+			});
+			$('#close-education').click(function() {
+				$('#education-popup').hide();
+				$('body').removeClass('no-scroll');
+			});
+
+			$('#sedfeugiat-btn').click(function(e) {
+				e.preventDefault();
+				$('body').addClass('no-scroll');
+				$('#sedfeugiat-popup').show();
+			});
+			$('#close-sedfeugiat').click(function() {
+				$('#sedfeugiat-popup').hide();
+				$('body').removeClass('no-scroll');
+			});
+
+			$('#music-btn').click(function(e) {
+				e.preventDefault();
+				$('body').addClass('no-scroll');
+				$('#music-popup').show();
+			});
+			$('#close-music').click(function() {
+				$('#music-popup').hide();
+				$('body').removeClass('no-scroll');
+			});
+
+			// Close popup when clicking on overlay
+			$('.popup-overlay').click(function(e) {
+				if (e.target === this) {
+					$(this).hide();
+					$('body').removeClass('no-scroll');
+				}
+			});
+		});
+
 })(jQuery);
