@@ -3160,6 +3160,24 @@ input, select, textarea {
 		opacity: 70%;
 	}
 
+	.idtech_logo {
+		margin: 0 0 20px 0;
+	}
+
+	.bronson_logo {
+		border-radius: 35px;
+		filter: brightness(112%);
+		margin: 0 0 20px 0;
+	}
+
+	.uw_logo {
+		margin: 0 0 25px 0;
+	}
+
+	.github_logo {
+		margin: 0 0 20px 0;
+	}
+
 	/* No scroll class for when popup is open */
 	.no-scroll {
 		overflow: hidden;
