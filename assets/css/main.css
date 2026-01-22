@@ -2740,7 +2740,7 @@ input, select, textarea {
 
 		.main .container {
 			padding: 5em 2.5em 8em 2.5em ;
-			background: rgba(255, 255, 255, 0.95);
+			background: rgba(255, 255, 255);
 			box-shadow: inset 0 1px 0 0 #dddddd;
 		}
 
@@ -2845,7 +2845,7 @@ input, select, textarea {
 			}
 
 		#header .container {
-			background: rgba(255, 255, 255, 0.95);
+			background: rgba(255, 255, 255);
 			bottom: 0;
 			left: 50%;
 			margin-left: -17.5em;
@@ -2872,7 +2872,7 @@ input, select, textarea {
 
 		#footer .container {
 			padding: 5em 2.5em 3em 2.5em ;
-			background: rgba(255, 255, 255, 0.95);
+			background: rgba(255, 255, 255);
 			box-shadow: inset 0 1px 0 0 #dddddd;
 		}
 
@@ -3151,7 +3151,16 @@ input, select, textarea {
 
 	}
 
-/* No scroll class for when popup is open */
+/* User Defined */
+	a {
+		border: none;
+	}
+
+	.transparent {
+		opacity: 70%;
+	}
+
+	/* No scroll class for when popup is open */
 	.no-scroll {
 		overflow: hidden;
 	}
