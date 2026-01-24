@@ -3178,6 +3178,39 @@ input, select, textarea {
 		margin: 0 0 20px 0;
 	}
 
+	.wtmb_logo {
+		margin: 0 0 25px 0;
+	}
+
+	.btal_logo {
+		border-radius: 15px;
+		margin: 0 100px 25px 0;
+	}
+
+	.bk_logo {
+		border-radius: 15px;
+		margin: 0 0 25px 0;
+	}
+
+	.bkpe_logo {
+		border-radius: 15px;
+		margin: 0 0 25px 0;
+	}
+
+	.dci_logo {
+		float: left;
+		margin: 0 0 50px 200px;
+	}
+
+	.wgi_logo {
+		float: right;
+		margin: 0 150px 50px 0;
+	}
+
+	.invisible_image {
+		opacity: 0%;
+	}
+
 	/* No scroll class for when popup is open */
 	.no-scroll {
 		overflow: hidden;
