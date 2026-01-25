@@ -3211,6 +3211,10 @@ input, select, textarea {
 		opacity: 0%;
 	}
 
+	.video {
+		margin: 0 0 25px 0;
+	}
+
 	/* No scroll class for when popup is open */
 	.no-scroll {
 		overflow: hidden;
