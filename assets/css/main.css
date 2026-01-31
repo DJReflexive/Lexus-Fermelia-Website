@@ -85,10 +85,21 @@ input, select, textarea {
 	html {
 		background-color: #313a3d;
 		background-attachment: fixed,						fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/medicinebow_1.jpeg");
 		background-position: top left,					center center;
 		background-repeat: repeat,						none;
 		background-size: auto,						cover;
+	}
+
+	html::before {
+		content: "";
+		position: fixed;
+		inset: 0;
+		background-image: url("../../images/medicinebow_1.jpeg");
+		background-size: cover;
+		background-position: center;
+		filter: brightness(0.7) blur(0.5px); 
+		z-index: -1;
 	}
 
 	html.is-preload *, html.is-preload *:before, html.is-preload *:after {
@@ -2803,7 +2814,7 @@ input, select, textarea {
 		}
 
 		#header header {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.8);
 			display: inline-block;
 			padding-bottom: 8em;
 			vertical-align: middle;
@@ -2878,7 +2889,7 @@ input, select, textarea {
 
 		#footer footer {
 			bottom: 2em;
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.8);
 			left: 0;
 			position: absolute;
 			text-align: center;
@@ -3209,6 +3220,11 @@ input, select, textarea {
 
 	.invisible_image {
 		opacity: 0%;
+	}
+
+	.image.fit.primary img.grayscale {
+	filter: grayscale(100%);
+	mix-blend-mode: luminosity;
 	}
 
 	.video {
