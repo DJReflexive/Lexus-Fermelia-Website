@@ -3195,12 +3195,12 @@ input, select, textarea {
 
 	.btal_logo {
 		border-radius: 15px;
-		margin: 0 100px 25px 0;
+		margin: 0 50px 25px 0;
 	}
 
 	.bk_logo {
 		border-radius: 15px;
-		margin: 0 0 25px 0;
+		margin: 0 50px 25px 0;
 	}
 
 	.bkpe_logo {
@@ -3210,12 +3210,12 @@ input, select, textarea {
 
 	.dci_logo {
 		float: left;
-		margin: 0 0 50px 200px;
+		margin: 50px 0 50px 125px;
 	}
 
 	.wgi_logo {
 		float: right;
-		margin: 20px 150px 50px 0;
+		margin: 70px 75px 50px 0;
 	}
 
 	.invisible_image {
