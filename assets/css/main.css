@@ -3012,7 +3012,7 @@ input, select, textarea {
 			}
 
 				.main .container .image.primary:first-child {
-					margin: -1.5em 0 2.5em 0;
+					margin: 0 0 2.5em 0;
 				}
 
 			.main .goto-next {
@@ -3140,7 +3140,7 @@ input, select, textarea {
 			}
 
 				.main .container .image.primary:first-child {
-					margin: -2em 0 2.5em 0;
+				margin: 0 0 2.5em 0;
 				}
 
 		/* Footer */
@@ -3223,8 +3223,8 @@ input, select, textarea {
 	}
 
 	.image.fit.primary img.grayscale {
-	filter: grayscale(100%);
-	mix-blend-mode: luminosity;
+		filter: grayscale(100%);
+		mix-blend-mode: luminosity;
 	}
 
 	.video {
