@@ -3236,6 +3236,19 @@ input, select, textarea {
 		margin-left: 15%;
 	}
 
+	.popup-content {
+		background: white;
+		padding: 20px;
+		border-radius: 10px;
+		max-width: 80%;
+		min-width: 30%;
+		max-height: 80%;
+		min-height: 30%;
+		overflow-y: auto;
+		margin: auto;
+		margin-top: 100px;
+	}
+
 	/* No scroll class for when popup is open */
 	.no-scroll {
 		overflow: hidden;

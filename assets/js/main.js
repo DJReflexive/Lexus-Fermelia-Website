@@ -220,6 +220,20 @@
 					$('body').removeClass('no-scroll');
 				}
 			});
+
+			// Close any popup when Escape is pressed
+			$(document).on('keydown', function(e) {
+				if (e.key === 'Escape') {
+
+					// Find any visible popup overlay
+					const $openPopup = $('.popup-overlay:visible');
+
+					if ($openPopup.length > 0) {
+						$openPopup.hide();
+						$('body').removeClass('no-scroll');
+					}
+				}
+			});
 		});
 
 })(jQuery);
