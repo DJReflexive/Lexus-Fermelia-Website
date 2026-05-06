@@ -3185,6 +3185,11 @@ input, select, textarea {
 		margin: 0 0 25px 0;
 	}
 
+	.primetime_paradox_logo {
+		border-radius: 7px;
+		crop: rect(0px, 50px, 0px, 0px);
+	}
+
 	.github_logo {
 		margin: 0 0 20px 0;
 	}
