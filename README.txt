@@ -1,3 +1,20 @@
+
+
+GitHub Repo for my Personal Website/Portfolio
+
+lexusfermelia.com
+djreflexive.github.io/Lexus-Fermelia-Website
+
+
+Lexus Fermelia
+B.S. Computer Science | Certificate in Audio Technology | University of Wyoming
+
+Contact me:
+lexusfermelia@gmail.com
+
+
+Website template provided by:
+
 Highlights by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
