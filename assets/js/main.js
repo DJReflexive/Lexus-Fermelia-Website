@@ -145,18 +145,22 @@
 			var $this = $(this),
 				$primaryImg = $this.find('.image.primary > img'),
 				$bg,
+				bgSrc = $this.data('bg') || ($primaryImg.length ? $primaryImg.attr('src') : null),
 				options;
 
-			// No primary image? Bail.
-				if ($primaryImg.length == 0)
+			// No background source? Bail.
+				if (!bgSrc)
 					return;
 
 			// Create bg and append it to body.
 				$bg = $('<div class="main-bg" id="' + $this.attr('id') + '-bg"></div>')
 					.css('background-image', (
-						'url("assets/css/images/overlay.png"), url("' + $primaryImg.attr('src') + '")'
+						'url("assets/css/images/overlay.png"), url("' + bgSrc + '")'
 					))
 					.appendTo($body);
+
+			// Remove the inline background image markup so it cannot render inside the content panel.
+				$this.find('.image.primary, .image.fit.primary').remove();
 
 			// Scrollex.
 				$this.scrollex({
@@ -212,6 +216,10 @@
 				$('#music-popup').hide();
 				$('body').removeClass('no-scroll');
 			});
+
+			// Move popup overlays out of transformed page sections and into body
+			// This keeps position:fixed popups aligned to the viewport on mobile.
+			$('.popup-overlay').appendTo($('body'));
 
 			// Close popup when clicking on overlay
 			$('.popup-overlay').click(function(e) {
